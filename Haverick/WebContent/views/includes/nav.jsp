@@ -14,7 +14,7 @@
 												<div class="button-bottom">
 												<p>Already have an account? <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></p>
 												</div>
-												<input class="hvr-shutter-out-horizontal play-icon popup-with-zoom-anim" type="submit"  value="Sign Up"/>
+												<input type="submit"  value="Sign Up"/>
 											</form>
 										</div>
 										<div class="clearfix"> </div>
@@ -39,7 +39,7 @@
 				<div class="signin">
 					<a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a>
 					<div id="small-dialog" class="mfp-hide">
-						<h3>Login</h3>
+						<h3>Sign In</h3>
 						<div class="signup">
 							<form action="<%=request.getContextPath()%>/LoginAction">
 								<input type="text" class="email" placeholder="Enter email / mobile" name="email"  pattern="([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?" required/>
