@@ -13,6 +13,7 @@ import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.MediaType;
 
+
 import com.damnhandy.uri.template.UriTemplate;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -57,10 +58,48 @@ public class RoviCtrl {
 		String uri = (String) ((LinkedTreeMap<String, Object>) templates.get("data_service_channels")).get("bulk");
 
 		String url = UriTemplate.fromTemplate(uri).set("id", providerID).set("page", "1").expand();
+		
+		System.out.println(url);
 
 		Client client = ClientBuilder.newClient();
 		Response response = client
 				.target(url)
+				.request(MediaType.TEXT_PLAIN_TYPE).get();
+
+		String body = response.readEntity(String.class);
+		
+		Gson gson = new Gson();
+		
+		
+		return null;
+	}
+	
+	public List<Viewable> getChannelViewables(Channel channel) {
+		String uri = (String) ((LinkedTreeMap<String, Object>) templates.get("data_service_channels")).get("bulk");
+
+		String url = UriTemplate.fromTemplate(uri).set("id", providerID).set("page", "1").expand();
+
+		Client client = ClientBuilder.newClient();
+		Response response = client
+				.target(url)
+				.request(MediaType.TEXT_PLAIN_TYPE).get();
+
+		String body = response.readEntity(String.class);
+		
+		Gson gson = new Gson();
+		
+		
+		return null;
+	}
+	
+	public BufferedImage getImage(int imageID) {
+		String uri = (String) templates.get("media_logo");
+
+		String url = UriTemplate.fromTemplate(uri).set("id", providerID).set("style", "1").expand();
+
+		Client client = ClientBuilder.newClient();
+		Response response = client
+				.target("https://developers.rovicorp.com/api/v1/resolve/2/data_browse_service?country={country}&#38;postalCode={postalCode}&#38;msoId={msoId}&#38;page={page}")
 				.request(MediaType.TEXT_PLAIN_TYPE).get();
 
 		System.out.println("status: " + response.getStatus());

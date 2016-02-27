@@ -7,55 +7,55 @@
 					</div>
 					<div class="col-md-4 resent-grid recommended-grid slider-top-grids">
 						<div class="resent-grid-img recommended-grid-img">
-							<a href="single.html"><img src="<%=request.getContextPath()%>/images/t1.jpg" alt="" /></a>
+							<a href="single.html"><img src="<%=request.getContextPath()%>/images/shows/WheelOfFortune.jpg" alt="" /></a>
 							<div class="time">
-								<p>3:04</p>
+								<p>00:21</p>
 							</div>
 							<div class="clck">
 								<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="resent-grid-info recommended-grid-info">
-							<h3><a href="single.html" class="title title-info">Pellentesque vitae pulvinar tortor nullam interdum metus a imperdiet</a></h3>
+							<h3><a href="single.html" class="title title-info">Wheel of Fortune</a></h3>
 							<ul>
-								<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
-								<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
+								<li><p class="author author-info"><a href="#" class="author">ABC</a></p></li>
+								<li class="right-list"><p class="views views-info">5 days</p></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-4 resent-grid recommended-grid slider-top-grids">
 						<div class="resent-grid-img recommended-grid-img">
-							<a href="single.html"><img src="<%=request.getContextPath()%>/images/t2.jpg" alt="" /></a>
+							<a href="single.html"><img src="<%=request.getContextPath()%>/images/shows/BBT.jpg" alt="" /></a>
 							<div class="time">
-								<p>7:23</p>
+								<p>0:27</p>
 							</div>
 							<div class="clck">
 								<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="resent-grid-info recommended-grid-info">
-							<h3><a href="single.html" class="title title-info">Interdum pellentesque vitae pulvinar tortor nullam metus a imperdiet</a></h3>
+							<h3><a href="single.html" class="title title-info">The Big Bang Theory</a></h3>
 							<ul>
-								<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
-								<li class="right-list"><p class="views views-info">4,200 views</p></li>
+								<li><p class="author author-info"><a href="#" class="author">Fox</a></p></li>
+								<li class="right-list"><p class="views views-info">2 Days</p></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-4 resent-grid recommended-grid slider-top-grids">
 						<div class="resent-grid-img recommended-grid-img">
-							<a href="single.html"><img src="<%=request.getContextPath()%>/images/t3.jpg" alt="" /></a>
+							<a href="single.html"><img src="<%=request.getContextPath()%>/images/shows/Grimm.jpg" alt="" /></a>
 							<div class="time">
-								<p>4:04</p>
+								<p>1:10</p>
 							</div>
 							<div class="clck">
 								<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="resent-grid-info recommended-grid-info">
-							<h3><a href="single.html" class="title title-info">Nullam interdum metus a imperdiet pellentesque vitae pulvinar tortor</a></h3>
+							<h3><a href="single.html" class="title title-info">Grimm</a></h3>
 							<ul>
-								<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
-								<li class="right-list"><p class="views views-info">71,174 views</p></li>
+								<li><p class="author author-info"><a href="#" class="author">NBC</a></p></li>
+								<li class="right-list"><p class="views views-info">1 Day</p></li>
 							</ul>
 						</div>
 					</div>
@@ -94,22 +94,22 @@
 									<div class="animated-grids">
 										<div class="col-md-3 resent-grid recommended-grid slider-first">
 											<div class="resent-grid-img recommended-grid-img">
-												<a href="single.html"><img src="<%=request.getContextPath()%>/images/c.jpg" alt="" /></a>
+												<a href="single.html"><img src="<%=request.getContextPath()%>/images/shows/JP.jpg" alt="" /></a>
 												<div class="time small-time slider-time">
-													<p>7:34</p>
+													<p></p>
 												</div>
 												<div class="clck small-clck">
 													<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
 												</div>
 											</div>
 											<div class="resent-grid-info recommended-grid-info">
-												<h5><a href="single.html" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+												<h5><a href="single.html" class="title">Jeopardy</a></h5>
 												<div class="slid-bottom-grids">
 													<div class="slid-bottom-grid">
-														<p class="author author-info"><a href="#" class="author">John Maniya</a></p>
+														<p class="author author-info"><a href="#" class="author">NBC</a></p>
 													</div>
 													<div class="slid-bottom-grid slid-bottom-right">
-														<p class="views views-info">2,114,200 views</p>
+														<p class="views views-info">3 Days</p>
 													</div>
 													<div class="clearfix"> </div>
 												</div>
@@ -117,7 +117,7 @@
 										</div>
 										<div class="col-md-3 resent-grid recommended-grid slider-first">
 											<div class="resent-grid-img recommended-grid-img">
-												<a href="single.html"><img src="<%=request.getContextPath()%>/images/c1.jpg" alt="" /></a>
+												<a href="single.html"><img src="<%=request.getContextPath()%>/images/shows/NCAA.jpg" alt="" /></a>
 												<div class="time small-time slider-time">
 													<p>6:23</p>
 												</div>
@@ -126,13 +126,13 @@
 												</div>
 											</div>
 											<div class="resent-grid-info recommended-grid-info">
-												<h5><a href="single.html" class="title">Nullam interdum metus varius viverra nullam sit amet viverra</a></h5>
+												<h5><a href="single.html" class="title">NCAA March Madness Basketball</a></h5>
 												<div class="slid-bottom-grids">
 													<div class="slid-bottom-grid">
-														<p class="author author-info"><a href="#" class="author">John Maniya</a></p>
+														<p class="author author-info"><a href="#" class="author">ESPN</a></p>
 													</div>
 													<div class="slid-bottom-grid slid-bottom-right">
-														<p class="views views-info">14,200 views</p>
+														<p class="views views-info">2 Days</p>
 													</div>
 													<div class="clearfix"> </div>
 												</div>

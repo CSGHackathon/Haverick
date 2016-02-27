@@ -7,12 +7,12 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.xml.bind.DatatypeConverter;
 
-public class Channel {
+public class Viewable {
 
-	public String channelName;
+	public String name;
 	public String logoImageString;
 	
-	public Channel(BufferedImage image, String channelName) {
+	public Viewable(BufferedImage image, String name) {
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
 		try {
 		    ImageIO.write(image, "png", baos);
@@ -22,6 +22,7 @@ public class Channel {
 		logoImageString = "data:image/png;base64," +
 		    DatatypeConverter.printBase64Binary(baos.toByteArray());
 		
-		this.channelName = channelName;
+		this.name = name;
 	}
+	
 }
