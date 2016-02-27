@@ -16,8 +16,8 @@ public class Register extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		/*TODO registeration code*/
-		response.sendRedirect(request.getContextPath()+"/views/login.jsp");
+		/*TODO check if user exists, create if not, than log user in and redirect to index*/
+		response.sendRedirect(request.getContextPath()+"/LoginAction");
 	}
 
 

@@ -27,10 +27,12 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<div class="top-search">
-				<form class="navbar-form navbar-right">
+			<%if(session.getAttribute("email")!=null){%>
+				<form class="navbar-form navbar-right" action="<%=request.getContextPath()%>/SearchAction">
 					<input type="text" class="form-control" placeholder="Search...">
 					<input type="submit" value=" ">
 				</form>
+				<%} %>
 			</div>
 			<%if(session.getAttribute("email")!=null){%>
 				<jsp:include page="../secure/includes/nav.jsp"/>
@@ -44,9 +46,13 @@
     </nav>
     <%if(session.getAttribute("email")!=null){%>
 		<jsp:include page="../secure/includes/sidebar.jsp"/>
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	<%}else{%>
+		<div class="col-sm-12 main">
 	<%}%>
-	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<div class="show-top-grids">
+	<div class="main-grids">
+			<div class="top-grids">
+	
 			
 
 

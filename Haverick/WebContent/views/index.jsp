@@ -1,4 +1,6 @@
 <jsp:include page="includes/header.jsp"/>
-<h1>Guest Homepage</h1>
+		<div class="show-top-grids">
+			<h1>Logged Out</h1>
+		</div>
 
 <jsp:include page="includes/footer.jsp"/>

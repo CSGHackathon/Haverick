@@ -1,2 +1,4 @@
-.show-top-grids{min-height:800px;}
+.show-top-grids,.top-grids{min-height:800px;}
 .footer-top{border-bottom:0px;}
+.mfp-content #small-dialog, .mfp-content #small-dialog2 {max-width: 500px;}
+.mfp-content .signup{width:100%;border-left:0px;}
