@@ -6,28 +6,6 @@
 					<div class="single-grid-right">
 						<div class="single-right-grids">
 							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r1.jpg" alt=""></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r2.jpg" alt=""></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views </p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
 								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r3.jpg" alt=""></a>
 							</div>
 							<div class="col-md-8 single-right-grid-right">
@@ -92,58 +70,14 @@
 							</div>
 							<div class="clearfix"> </div>
 						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r3.jpg" alt=""></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r4.jpg" alt=""></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r5.jpg" alt=""></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="single-right-grids">
-							<div class="col-md-4 single-right-grid-left">
-								<a href="single.html"><img src="<%=request.getContextPath()%>/images/r6.jpg" alt=""></a>
-							</div>
-							<div class="col-md-8 single-right-grid-right">
-								<a href="single.html" class="title"> Nullam interdum metus</a>
-								<p class="author"><a href="#" class="author">John Maniya</a></p>
-								<p class="views">2,114,200 views</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
 					</div>
 				</div>
 <hr/>
-<br/>
-<div class="recommended">
+
+<div class="recommended" >
 					<div class="recommended-grids">
 						<div class="recommended-info">
-							<h3>Recommended</h3>
+							<h3>&nbsp;</h3>
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">

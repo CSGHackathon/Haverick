@@ -1,11 +1,4 @@
 <jsp:include page="includes/header.jsp"/>
-		<div class="header-content">
-            <div class="header-content-inner">
-                <h1 style="font-size: 65px;">Your Favorite Source of Free Bootstrap Themes</h1>
-                <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-
+	<div id='homepage'></div>
+	
 <jsp:include page="includes/footer.jsp"/>
