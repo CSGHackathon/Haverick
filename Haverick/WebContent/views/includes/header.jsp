@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><h1><img src="<%=request.getContextPath()%>/images/logo.png" alt="" /></h1></a>
+          <a class="navbar-brand" href="<%=request.getContextPath()%>"><h1><img src="<%=request.getContextPath()%>/images/logo.png" alt="" /></h1></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<div class="top-search">
