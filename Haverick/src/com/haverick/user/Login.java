@@ -19,6 +19,7 @@ public class Login extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session= request.getSession();
+		System.out.println("Info: Login Action hit.");
 		if(request.getParameter("email")!=null&&request.getParameter("password")!=null){
 			session.setAttribute("email",request.getParameter("email"));
 		}
