@@ -10,6 +10,8 @@
 <link href="<%=request.getContextPath()%>/css/style.css" rel='stylesheet' type='text/css' media="all" />
 <link href="<%=request.getContextPath()%>/css/custom.css" rel='stylesheet' type='text/css'/>
 <script src="<%=request.getContextPath()%>/js/jquery-1.11.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/angular.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/aControl.js"></script>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </head>
