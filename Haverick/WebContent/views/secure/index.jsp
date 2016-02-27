@@ -67,7 +67,7 @@
 						<div class="recommended-info">
 							<h3>Animated Cartoon</h3>
 						</div>
-						<script src="js/responsiveslides.min.js"></script>
+						<script src="<%=request.getContextPath()%>/js/responsiveslides.min.js"></script>
 						 <script>
 							// You can also use "$(window).load(function() {"
 							$(function () {
