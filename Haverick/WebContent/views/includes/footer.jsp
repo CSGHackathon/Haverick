@@ -1,3 +1,4 @@
+</div>
 <div class="footer">
 <div class="footer-grids">
 	<div class="footer-top">
@@ -20,6 +21,7 @@
 				<li><a href="try.html">Try something new!</a></li>
 			</ul>
 		</div>
+	</div>
 	</div>
 	</div>
 	</div>
